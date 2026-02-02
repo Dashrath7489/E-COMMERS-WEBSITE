@@ -1,0 +1,117 @@
+  /* login page */
+
+/* GLOBAL STYLES */
+body {
+    background-image: url('/static/image/IMAGE.png');
+    /* background-image: url('/static/image/login\ image.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTAINER STYLING */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    width: 90%;
+    max-width: 420px;
+}
+
+/* HEADINGS */
+ h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #0044ff, #00c6ff);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* INPUT FIELDS */
+input {
+    margin: 12px 0;
+    padding: 14px 16px;
+    width: 92%;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 198, 255, 0.8);
+    transform: scale(1.02);
+}
+
+/* BUTTONS */
+.btn {
+    background: linear-gradient(to right, #01884e, #00b761);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 12px;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #00b761, #01884e);
+    transform: scale(1.08);
+}
+
+/* HOME PAGE LINK BUTTONS */
+/* Link Buttons */
+/* Paragraph Style */
+p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 12px 0;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+/* Stylish Anchor Link Button */
+a {
+    background: linear-gradient(to right, #ff4d4d, #ff1a1a);
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: all 0.35s ease-in-out;
+    display: inline-block;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+a:hover {
+    background: linear-gradient(to right, #e60000, #b30000);
+    transform: scale(1.1);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}

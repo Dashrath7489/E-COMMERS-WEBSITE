@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="/static/Style2.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Signup</h2>
+        <form method="POST">
+            <input type="email" name="email" placeholder="Email" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="submit" value="Create Account" class="btn"><br>
+            <p>Already have an account?&nbsp;&nbsp; <a href="{{ url_for('login') }}">Login</a></p>
+        </form>
+    </div>
+</body>
+
+</html>
